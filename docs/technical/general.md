@@ -2,11 +2,114 @@
 sidebar_position: 1
 ---
 
+import Question from "@site/src/components/Questions";
+
 # General Questions
 
-Questions & Answers to User Research questions. Pull requests for suggestions and corrections are welcome!
+General questions are those that are broad or don’t neatly fall into any of these other categories. They may be about design, general knowledge, or your education that somehow relates to UX. Pull requests for suggestions and corrections are welcome!
 
 ## Table of contents
-- [What kind of UX research methods and processes do you use when starting a new project?]
-- [How do you validate or conduct usability testing on a design?]
-- [Pick a product, identify a UX design problem, and describe how you would conduct research.]
+
+- <Question question="What is design?"/>
+- <Question question="What is the design process?"/>
+- <Question question="How would you define design thinking?"/>
+- <Question question="What is human-centered design?"/>
+- <Question question="What is cognitive science and how does it relate to UX, UI, or HCI?"/>
+- <Question question="How did your education prepare you for this job"/>
+- <Question question="What do you do to stay up-to-date on your technical certifications and knowledge?"/>
+
+### What is design?
+
+There are many definitions for design, and the definition can change depending on who you ask.
+
+Pentak states "A dictionary
+definition uses the synonym plan: To design indeed means
+to plan, to organize... Design is essentially the opposite of chance. In ordinary conversation, when we say “it happened by design,” we mean something was planned—it did not occur just by accident."
+
+The international council on design (ICOD) defines design as "a discipline of study and practice focused on the interaction between a person — a ‘user’— and the man-made environment, taking into account aesthetic, functional, contextual, cultural and societal considerations. As a formalised discipline, design is a modern construct."
+
+##### References
+
+- https://www.theicod.org/en/professional-design/what-is-design/what-is-design
+- Design Basics, Ninth Edition Stephen Pentak, David A. Lauer
+
+### What is the design process?
+
+There are several models of the design process. While these methods may be highly subjective, they generally follow a pattern of beginning with a recognition of a problem, a need for a new design and culminating in a solution proposal.
+
+The design process I'm most familiar with is The UK's Design Council model of the creative design process known as the Double Diamond model which describes the process in four diverging and converging phases:
+
+- Discover (insight into the problem)
+- Define (define the challenge)
+- Develop (potential solutions)
+- Deliver (solutions that work)
+
+Each converging point is cyclic to model iterative process in design.
+
+<img src="https://www.designcouncil.org.uk/sites/default/files/styles/dc_-_wysiwyg_-_smart_embed/public/assets/images/Double%20Diamond%20Model%20FINAL.png?itok=8a4xRHCO" alt=""/>
+
+###### References
+
+- https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond
+
+### How would you define design thinking?
+
+Design thinking is a term used to represent a set of cognitive, strategic and practical processes by which design concepts are developed.
+
+In other words, design thinking is a system of creative problem solving. The arts are called creative fields because there are no predetermined correct answers to the problems. Because of this, design thinking stresses the importance of understanding and correctly defining the problem so we can design and solve for right problem. Design thinking drives innovation by understanding problems to facilitate ideation and design.
+
+Can be defined as a non-linear process with 5 overlapping stages:
+
+- Defining the problem
+- Need-finding
+- Ideating
+- Building
+- Testing
+
+Design thinking stresses the importance of inspiration, empathy, ideation,implementation and prototyping.
+
+##### References
+
+- https://hbr.org/2018/09/why-design-thinking-works
+- https://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained
+- https://en.wikipedia.org/wiki/Design_thinking
+- https://www.ideou.com/blogs/inspiration/what-is-design-thinking
+
+### What is human-centered design?
+
+Human-centered design is an approach to interactive systems development that aims to make systems usable and useful by focusing on the users in all steps of the problem-solving process, their needs and requirements, and by applying human factors/ergonomics, and usability knowledge and techniques.
+
+Human involvement typically takes place in observing the problem within context, brainstorming, conceptualizing, developing, and implementing the solution. This approach enhances effectiveness and efficiency, improves human well-being, user satisfaction, accessibility and sustainability; and counteracts possible adverse effects of use on human health, safety and performance.
+
+##### References
+
+- https://en.wikipedia.org/wiki/Human-centered_design
+- https://www.iso.org/standard/77520.html
+
+### What is cognitive science and how does it relate to UX, UI, or HCI?
+
+Cognitive science is the interdisciplinary scientific study of the mind and cognition. Cognition can be thought of the cumulation and a system of cognitive processes, namely, perception, emotion, language, memory, attention, and reasoning.
+
+Computational Cognitive science relates computers to the brain, either as a metaphor, or as a tool used to model cognitive processes. One example of this are artificial neural networks which were modeled after biological neural nets.
+
+To create good UX, you must understand HCI. To understand HCI, you must understand people and computers. Cognitive science understands people, my specialization in computation helps me understand computers. Understanding people helps you design for them.
+
+<img src="/img/cog-sci.png"/>
+
+##### References
+
+- https://en.wikipedia.org/wiki/Cognitive_science
+- https://plato.stanford.edu/entries/cognitive-science/
+
+<!--
+### How did your education prepare you for this job?
+
+### What do you do to stay up-to-date on your technical certifications and knowledge?
+
+### Explain the product lifecycle
+
+### Are you familiar with any prescriptive design processes commonly used in tech?
+Agile
+Design sprints -->
+
+[[↑] Back to top](#table-of-contents)

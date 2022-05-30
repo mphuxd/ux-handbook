@@ -2,54 +2,259 @@
 sidebar_position: 3
 ---
 
-# User Experience
+import Question from "@site/src/components/Questions";
+
+# User Experience Questions
 
 Questions & Answers to UX interview questions. Pull requests for suggestions and corrections are welcome!
 
-Interview Questions sourced from:
-
-https://brainstation.io/career-guides/ux-designer-interview-questions
-
-https://www.coursera.org/articles/ux-designer-interview-questions-and-answers
-
 ## Table of contents
 
-- [What is UX?]
-- [How does UX fit within tech?]
-- [Explain your design process.]
-- [What are some components of UX?]
-- [What’s a user persona?]
-- [What’s a wireframe? Prototype? What are the differences?]
-- [What are some of the methods and tools of UX?]
-- [Which UX tools do you use in your day-to-day work life?]
-- [Please define the difference between information architecture, interaction design, usability, and user research?]
-- [Please take us through some of the differences between designing for desktop and mobile devices?]
-- [How would you define design thinking?]
-- [What are the three most important UX Designer skills?]
-- [How would you define visual hierarchy?]
-- [How would you describe the basic philosophies or principles that inform your designs?]
-- [How do you balance business needs and technical restrictions with good design?]
-- [What do you think is the most important factor on a page/wireframe? Why?]
-- [In your work, how do you practice universal design?]
-- [What is your process for deciding which features to add to your product?]
-- [A UX client has a problem. Walk me through your response.]
-- [Let’s take a look at your UX portfolio. Can you walk us through your process and methods for one of your projects?]
-- [How do you make a product accessible to users with disabilities?]
-- [What analytical tools, data and KPIs have you used to evaluate your previous designs?]
-- [Take us through a UX design example from your project portfolio where you set out to solve a business problem.]
-- [How do you balance business goals with the goals of the end-user?]
-- [When you validate a design, what kind of data do you use?]
-- [After product launch, how do you measure the success of a product?]
-- [Tell me about one of your recent projects. Walk me through the design process, thinking, and final design.]
-- [What makes a great UX Designer?]
-- [Describe a product that you really love and why. How could you improve it?]
-- [Please whiteboard a solution to enhance the experience of driving a car.]
-- [What is the difference between information architecture and user experience?]
-- [Someone on your team has a strong opinion about how a certain feature should be designed, but you disagree because you think it will not provide a good user experience. How do you approach the situation?]
+- <Question question="What is UX?" />
+- <Question question="How does UX fit within tech?" />
+- <Question question="Why is it important to know how to code as a UX designer?" />
+- <Question question="What are some components of UX?" />
+- <Question question="Please define the difference between information architecture, interaction design, usability, and user research." />
+- <Question question="What’s a user persona?" />
+- <Question question="What’s a wireframe? Prototype? What are the differences?" />
+- <Question question="What tools are you familiar with? What tools are important for a UX designer?" />
+- <Question question="Please take us through some of the differences between designing for desktop and mobile devices?" />
+- <Question question="What are the three most important UX Designer skills?" />
+- <Question question="How would you define visual hierarchy?" />
+- <Question question="How would you describe the basic philosophies or principles that inform your designs?" />
+- <Question question="What are design principles? Why are they important?" />
+- <Question question="In your work, how do you practice universal design?" />
+- <Question question="What is your process for deciding which features to add to your product?" />
+- <Question question="How do you validate or conduct usability testing on a design?" />
+- <Question question="Which UX tools do you use in your day-to-day work life?" />
+- <Question question="After product launch, how do you measure the success of a product?" />
+- <Question question="What analytical tools, data and KPIs have you used to evaluate your previous designs?" />
+- <Question question="How do you balance business goals with the goals of the end-user?" />
+- <Question question="Let’s take a look at your UX portfolio. Can you walk us through your process and methods for one of your projects?" />
+- <Question question="Take us through a UX design example from your project portfolio where you set out to solve a business problem." />
+- <Question question="Pick a product, identify a UX design problem, and describe how you would conduct research." />
 
 ### What is UX?
 
+User experience focuses on understanding and dictating the experience people have with a product, company, or service. To understand UX, it can be helpful to understand its origin and history. Engineering and psychology form Humans Factor Engineering (HFE), of which Industrial Design, Product Design, and HCI are subcategories. Under HCI are interaction design, user experience, and UI design. UX is an umbrella term for several related categories such as IA, UI, and UXR.
+
+HCI is about understanding how humans and computers interact whereas UX is about dictating or shaping how people experience something. But because you need to understand how users interact with computers to design good user experiences, UX falls under HCI.
+
+UI design mostly focuses on developing rules, standards, and optimizations in computer interfaces which were derived from the insights in HCI.
+
+<img src="/img/ux-tree.png" />
+
 ###### References
 
+- https://en.wikipedia.org/wiki/User_experience
+- https://xd.adobe.com/ideas/career-tips/what-is-ux-design/
+- https://www.udacity.com/course/human-computer-interaction--ud400
+
+###### References
+
+### How does UX fit within tech?
+
+UX is a sub-discipline of Human-Computer Interaction (HCI) which directly focuses on understanding how humans interact with computers. The role of a UX designer varies from company to company, but generally are involved from the design and development of digital products as advocates for the end user.
+
+### Why is it important to know how to code as a UX designer?
+
+UX is a branch of human-computer interaction. Knowing how to code is an indication of technical understanding of computers. Without understanding computers, you’re missing half of the equation.
+
+Knowing how to code demonstrates a fundamental understanding of the tools needed to implement designs. It's fundamental to understanding the limitations of these tools and creating designs within these limitations.
+Additionally, it helps you communicate with engineers and developers through a shared understanding and language.
+
+If you’re not familiar with code, you might suggest designs that aren't possible or technically feasible but unreasonable, creating friction within the team and potentially wasting valuable time.
+
+### What are some components of UX?
+
+UX is a very broad field so it encompasses many subfields depending on how you define it. It has a lot of overlap with other disciplines.
+The main components of UX are:
+
+- Research
+- Information design & architecture
+- Content Strategy
+- Interaction design
+- Emotional Design
+- UI design
+- Visual design
+- Prototyping
+
+### Please define the difference between information architecture, interaction design, usability, and user research.
+
+#### Information architecture
+
+seeks to structure information, content in a methodical, easy to find, scalable way.
+
+#### Interaction Design
+
+#### Usability
+
+#### User Research
+
+#### What’s a user persona?
+
+Profile of a user archetype used to display who the user is to stakeholders.
+
+### What’s a wireframe? Prototype? What are the differences?
+
+Different fidelities. Used for different reasons. Wireframes are used to determine and test the structure of the design and are used earlier in the design process. Prototypes are used to test the visual characteristics and finer details of the design and are used further along the design process. Because prototypes are more detailed, you are often testing more nuanced details such as interactions between web pages, components, and overall look and feel. Also to update stakeholders with the progress.
+
+### What tools are you familiar with? What tools are important for a UX designer?
+
+Pen & Paper - wireframing & brainstorming
+Figma - Prototyping, component design, design systems.
+https://www.optimalworkshop.com/ - Used for card sorting and other usability tools
+https://www.typeform.com/ - Used for surveys
+https://avocode.com/ - Streamlines design-file handoffs
+https://www.protopie.io/ - Interactive Responsive Prototypes
+https://www.magicbell.com/ - Notifications
+https://www.optimizely.com/ - A/B Testing
+
+### Please take us through some of the differences between designing for desktop and mobile devices?
+
+Obviously with mobile there's less space, so its about determining how to use that space efficiently and effectively. This means deferring information and details to other pages. Also means you’re limited by mobile computing performance, so you have to be aware of how computationally intensive complex interactions and components might be.
+Additionally, designing for mobile and desktop usually means creating responsive components, so it's not really about designing for either, you have to design for both at the same time so they are compatible on all screens. So when designing for mobile, you have to be aware of how you might shift the layout at higher resolutions and vice versa.
+
+### What are the three most important UX Designer skills?
+
+Kind of a bad question. Soft skills or technical? In general..
+Empathy - The ability to understand users, clients.
+Ideation - The ability to think creatively and come up with a solution.
+Prototyping - The ability to realize your ideas.
+
+### How would you define visual hierarchy?
+
+Order of visual importance
+Visual hierarchy is the principle of arranging elements to show their order of importance.
+Visual Hierarchy is used to rank design elements and influence in the order you want your users to view them.
+Visual hierarchy is the order in which humans process information on a page. It's a system to prioritize elements so that they are easily understood.
+
+### How would you describe the basic philosophies or principles that inform your designs?
+
+It depends on the project. But generally..
+Content based design
+Appropriate
+How do you balance business needs and technical restrictions with good design?
+It needs to be negotiated and it really depends on what we’re talking about.
+What do you think is the most important factor on a page/wireframe? Why?
+On a single page, the content structure/layout to test out the flow
+
+### What are design principles? Why are they important?
+
+They define approaches to design. A design approach is a general philosophy that may or may not include a guide for specific methods. Some are to guide the overall goal of the design. Other approaches are to guide the tendencies of the designer.
+
+Design philosophies are usually for determining design goals. In this sense, design philosophies are fundamental guiding principles that dictate how a designer approaches his/her practice. Attempts to model design thinking have resulted in design processes.
+
+##### References
+
+-
+
+### In your work, how do you practice universal design?
+
+In theory
+Accessibility
+Typography
+Contrast colors
+Also test for variations of color blindness
+Universal design also means designing for different cultures
+UI compatibility
+RTL.LTR text
+Dates
+Character limits
+Colors have different meanings/perception
+Ability to change language
+
+### What is your process for deciding which features to add to your product?
+
+Start with research and feedback.
+Validate and make sure its necessary or that the users even want it
+Discuss with engineers to determine feasibility if necessary, or to get them in the discussion. Build a prototype?
+MVP?
+Depends on the stage of the project
+
+### How do you validate or conduct usability testing on a design?
+
+Depends on what stage of the design.
+Wireframe testing
+Task flow analysis
+Test designs against user flows
+A/B Testing
+Watch user perform tasks
+Build prototypes
+
+### Which UX tools do you use in your day-to-day work life?
+
+Figma, browsers dev tools, VS Code, analytics
+How do you make a product accessible to users with disabilities?
+Follow the ARIA accessibility guidelines.
+Use tests to determine potential issues.
+Gather data, feedback
+
+### After product launch, how do you measure the success of a product?
+
+### What analytical tools, data and KPIs have you used to evaluate your previous designs?
+
+Google Lighthouse
+Largest Contentful Paint (LCP)
+First Input Delay (FID)
+Cumulative Layout Shift (CLS)
+Google Analytics
+Bounce rates
+Interactivity
+NPS - Net promoter score
+How likely are you to recommend us to a friend?
+CTR - Click through rate
+How many users completed steps in the golden path
+DAU - Daily active users
+Retention
+The number of members that stay over a period of time without adding new users
+HEART Framework
+Happiness - satisfaction, NPS, through surveys
+Engagement - user activity
+Adoption - new users, daily usage
+Retention - % active/time
+Task Success - time, completed tasks, errors
+Key metrics
+Dependent on your product
+Reflects your products success
+
+##### References
+
+- https://web.dev/learn-web-vitals/
+- https://web.dev/vitals-business-impact/
+
+### How do you balance business goals with the goals of the end-user?
+
+Negotiate, but ultimately it is up to the business.
+How to negotiate?
+Reframe the goals to convey business value in your decisions.
+Support with data.
+
+### Let’s take a look at your UX portfolio. Can you walk us through your process and methods for one of your projects?
+
+Sure
+
+### Take us through a UX design example from your project portfolio where you set out to solve a business problem.
+
+PXO goals
+Increase recruitment efficiency, efficacy
+Increase membership
+Improve reputation
+Enhance brand
+PXO Problems
+Average membership is decreasing
+Other competitors are growing
+Hypothesis
+Rumors and reputation are scaring off people.
+The Pledging process is too difficult for some.
+Students may be more interested in academics than social fraternities now.
+Students may not know about Psi Chi Omega
+What are the reasons why we are falling behind?
+Revalidate
+Determine if the fraternity’s purpose is no longer in line with the market demands
+If so, what can we do to realign our fraternity with the market?
+User research was used to determine the psychology of Asian-Americans to see if it still resonates with our purpose
+
+### Pick a product, identify a UX design problem, and describe how you would conduct research.
 
 [[↑] Back to top](#table-of-contents)

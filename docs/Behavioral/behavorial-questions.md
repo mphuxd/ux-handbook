@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# Behavorial Questions
+# Behavioral Questions
+
+Behavioral questions don't have a definitive answer. For these questions, I’ll describe the structure of the answer, what interviewers are looking for, and strategies to answer these questions.
 
 ## Table of Contents
 
@@ -41,3 +43,12 @@ sidebar_position: 2
 - [Tell me about a time that you did something wrong and what you learned from the process.]
 - [Tell me about a time where you failed to meet a deadline.]
 - [What past experience have you had working in design alongside Software Developers?]
+- Tell me about a time where you failed to meet a deadline.
+- What past experience have you had working in design alongside Software Developers?
+- Tell me about one of your recent projects. Walk me through the design process, thinking, and final design.
+- What makes a great UX Designer?
+- Describe a product that you really love and why. How could you improve it?
+- Please whiteboard a solution to enhance the experience of driving a car.
+- What is the difference between information architecture and user experience?
+- Someone on your team has a strong opinion about how a certain feature should be designed, but you disagree because you think it will not provide a good user experience. How do you approach the situation?
+- Pick a product, identify a UX design problem, and describe how you would conduct research.

@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "UX Handbook",
+  tagline: "Prepare for your UX interview",
+  url: "https://uxinterviewhandbook.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -34,8 +34,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarCollapsed: false,
           routeBasePath: "/",
           breadcrumbs: false,
+          editUrl:
+            'https://github.com',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
 
         blog: false,
@@ -51,28 +56,29 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "UX Handbook",
+        hideOnScroll: true,
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "UX Logo",
+          src: "img/logo3.png",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+        // items: [
+        //   {
+        //     type: "doc",
+        //     docId: "intro",
+        //     position: "left",
+        //     label: "Tutorial",
+        //   },
+        //   // {to: '/blog', label: 'Blog', position: 'left'},
+        //   {
+        //     href: "https://github.com/facebook/docusaurus",
+        //     label: "GitHub",
+        //     position: "right",
+        //   },
+        // ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "Docs",
