@@ -14,6 +14,7 @@ General questions are those that are broad or don’t neatly fall into any of th
 - <Question question="What is the design process?"/>
 - <Question question="How would you define design thinking?"/>
 - <Question question="What is human-centered design?"/>
+- <Question question="What is interaction design?"/>
 - <Question question="What is cognitive science and how does it relate to UX, UI, or HCI?"/>
 - <Question question="How did your education prepare you for this job"/>
 - <Question question="What do you do to stay up-to-date on your technical certifications and knowledge?"/>
@@ -51,6 +52,7 @@ Each converging point is cyclic to model iterative process in design.
 ###### References
 
 - https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond
+- https://medium.com/stanford-d-school/lets-stop-talking-about-the-design-process-7446e52c13e8
 
 ### How would you define design thinking?
 
@@ -85,6 +87,11 @@ Human involvement typically takes place in observing the problem within context,
 
 - https://en.wikipedia.org/wiki/Human-centered_design
 - https://www.iso.org/standard/77520.html
+
+### What is interaction design? 
+
+###### References
+- https://asktog.com/atc/principles-of-interaction-design/
 
 ### What is cognitive science and how does it relate to UX, UI, or HCI?
 
