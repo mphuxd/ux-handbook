@@ -1,0 +1,47 @@
+---
+sidebar_position: 2
+---
+
+import Question from "@site/src/components/Questions";
+
+# UX Behavioral Questions
+
+Behavioral questions don't have a definitive answer. For these questions, I’ll describe the structure of the answer, what interviewers are looking for, and strategies to answer these questions.
+
+:::caution
+**This section is still a work in progress.**
+
+If you'd like to contribute, feel free to submit a pull request!
+
+:::
+
+## Table of Contents
+
+- <Question question="What made you decide to pursue a UX design career?" />
+- <Question question="How did you become a designer?" />
+- <Question question="What did you do to learn design?" />
+- <Question question="What do you currently do to learn and keep up-to-date with design?" />
+- <Question question="What inspires you?" />
+- <Question question="In your opinion, what makes a great UX Designer?" />
+- <Question question="On the spectrum of UX Researcher to UX Designer to Visual Designer, where do you see yourself and why?" />
+- <Question question="How do you advocate for usability in your organization?" />
+- <Question question="What is the most important part of your design process?" />
+- <Question question="What past experience have you had working in design alongside Software Developers?" />
+- <Question question="If you designed something and a Web Developer told you “we can’t do that,” what would you do?" />
+- <Question question="How would you explain a complicated technical problem to a colleague with less technical understanding?" />
+- <Question question="How would you go about explaining a complex idea/problem to a client who is already frustrated?" />
+- <Question question="What design or project are you most proud of? Why?" />
+- <Question question="Take me through a couple of your favorite pieces in your UX design portfolio." />
+- <Question question="Describe a product that you really love and why. How could you improve it?" />
+- <Question question="Tell me about a successful presentation you gave and why you think it did well." />
+- <Question question="How would you provide feedback on other projects? Take us through your approach." />
+- <Question question="What do you do when a stakeholder disagrees with the results of your UX research?" />
+- <Question question="Have you ever worked on a project where the requirements suddenly changed? How did you react?" />
+- <Question question="Tell me about a time when a project went off track. How did you fix it?" />
+- <Question question="Have you ever faced a situation in which your feedback/recommendation was not taken? How did you handle the situation?" />
+- <Question question="Someone on your team has a strong opinion about how a certain feature should be designed, but you disagree because you think it will not provide a good user experience. How do you approach the situation?" />
+- <Question question="Please recall a difficult client you’ve had and how you handled the situation." />
+- <Question question="Tell me about a time when you disagreed with a business goal and how you handled it." />
+
+https://library.gv.com/how-designers-and-engineers-can-play-nice-and-still-run-with-scissors-8df20e65c2c1
+

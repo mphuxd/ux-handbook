@@ -4,6 +4,62 @@
 
 @layer base {
   @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-Italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-Medium.woff2") format("woff2");
+    font-weight: medium;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-MediumItalic.woff2") format("woff2");
+    font-weight: medium;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-SemiBoldItalic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Arimo";
+    src: url("/fonts/Arimo-BoldItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @font-face {
     font-family: "stanley";
     src: url("/fonts/stanley.woff2") format("woff2"), url("/fonts/stanley.woff") format("woff");
     font-weight: normal;

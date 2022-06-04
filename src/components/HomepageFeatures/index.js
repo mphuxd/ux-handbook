@@ -1,49 +1,58 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Getting Started",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Are you ready to start your interview prep? Get familiar with the UX interview process and
+        learn how to make the most out this handbook.
       </>
     ),
+    link: "Get Started",
+    slug: "/getting-started",
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Prepare",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Learn strategies to nail your interviews. Start with technical & behavioral questions, then
+        practice presenting & whiteboard challenges.
       </>
     ),
+    link: "Questions",
+    slug: "/technical/overview",
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Resources",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Go beyond the basics and discover valuable resources to advance your UX skills and keep
+        up-to-date with the industry.
       </>
     ),
+    link: "Additional Resources",
+    slug: "/resources",
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description, link, slug }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <div className={clsx("col col--4")}>
+      {/* <div className="text--left">
         <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+      </div> */}
+      <div className=''>
         <h3>{title}</h3>
         <p>{description}</p>
+        <a className={styles.feature__link} href={slug}>
+          {link}
+        </a>
       </div>
     </div>
   );
@@ -52,12 +61,10 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+      <div className='row'>
+        {FeatureList.map((props, idx) => (
+          <Feature key={idx} {...props} />
+        ))}
       </div>
     </section>
   );

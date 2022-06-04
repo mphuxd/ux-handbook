@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon2.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -36,9 +36,8 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsed: false,
           routeBasePath: "/",
-          breadcrumbs: false,
-          editUrl:
-            'https://github.com',
+          breadcrumbs: true,
+          editUrl: "https://github.com",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -62,6 +61,7 @@ const config = {
           alt: "UX Logo",
           src: "img/logo3.png",
         },
+
         // items: [
         //   {
         //     type: "doc",
@@ -77,14 +77,43 @@ const config = {
         //   },
         // ],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       footer: {
         style: "light",
         links: [
           {
-            title: "Docs",
+            title: "Handbook",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
+                to: "/docs/intro",
+              },
+              {
+                label: "Getting Started",
+                to: "/docs/intro",
+              },
+              {
+                label: "Technical Questions",
+                to: "/docs/intro",
+              },
+              {
+                label: "Behavioral Questions",
+                to: "/docs/intro",
+              },
+              {
+                label: "UX Presentations",
+                to: "/docs/intro",
+              },
+              {
+                label: "Design Exercises",
+                to: "/docs/intro",
+              },
+              {
+                label: "Resources",
                 to: "/docs/intro",
               },
             ],
@@ -110,8 +139,8 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "About",
+                to: "/about",
               },
               {
                 label: "GitHub",
@@ -120,7 +149,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus. Open source and free to use, forever.`,
       },
       prism: {
         theme: lightCodeTheme,

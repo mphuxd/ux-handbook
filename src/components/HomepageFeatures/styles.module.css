@@ -1,6 +1,6 @@
 .features {
   display: flex;
-  align-items: center;
+  align-items: left;
   padding: 2rem 0;
   width: 100%;
 }
@@ -8,4 +8,8 @@
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+.feature__link {
+  display: flex;
+  flex-direction: row;
 }
