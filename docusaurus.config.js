@@ -86,7 +86,7 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Handbook",
+            title: "General",
             items: [
               {
                 label: "Introduction",
@@ -94,8 +94,17 @@ const config = {
               },
               {
                 label: "Getting Started",
+                to: "/docs/getting-started",
+              },
+              {
+                label: "Resources",
                 to: "/docs/intro",
               },
+            ],
+          },
+          {
+            title: "Prepare",
+            items: [
               {
                 label: "Technical Questions",
                 to: "/docs/intro",
@@ -112,25 +121,21 @@ const config = {
                 label: "Design Exercises",
                 to: "/docs/intro",
               },
-              {
-                label: "Resources",
-                to: "/docs/intro",
-              },
             ],
           },
           {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "GitHub",
+                href: "https://github.com/facebook/docusaurus",
               },
               {
                 label: "Twitter",
+                href: "https://twitter.com/docusaurus",
+              },
+              {
+                label: "Discord",
                 href: "https://twitter.com/docusaurus",
               },
             ],
@@ -143,8 +148,8 @@ const config = {
                 to: "/about",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "How to contribute",
+                to: "/about",
               },
             ],
           },

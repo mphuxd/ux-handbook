@@ -1,6 +1,8 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
+import Button from '@mui/material/Button';
 
 const FeatureList = [
   {
@@ -12,7 +14,9 @@ const FeatureList = [
         learn how to make the most out this handbook.
       </>
     ),
-    link: "Get Started",
+    
+    // link: <Button className='MuiButton-containedInherit' variant='outlined' color="inherit">Get Started</Button>,
+    link: <button className='button button--outline button--primary'>Get Started</button>,
     slug: "/getting-started",
   },
   {
@@ -24,7 +28,7 @@ const FeatureList = [
         practice presenting & whiteboard challenges.
       </>
     ),
-    link: "Questions",
+    link: "View Questions",
     slug: "/technical/overview",
   },
   {
@@ -47,12 +51,10 @@ function Feature({ Svg, title, description, link, slug }) {
       {/* <div className="text--left">
         <Svg className={styles.featureSvg} role="img" />
       </div> */}
-      <div className=''>
+      <div className='margin-top--md margin-bottom--md'>
         <h3>{title}</h3>
         <p>{description}</p>
-        <a className={styles.feature__link} href={slug}>
-          {link}
-        </a>
+        <Link to={slug}>{link}</Link>
       </div>
     </div>
   );

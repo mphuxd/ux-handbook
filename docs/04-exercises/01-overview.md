@@ -16,7 +16,7 @@ They are frequently used to assess your problem solving skills, design process, 
 There's no way to know which design challenges they will ask you to solve. Some companies may choose scenarios relevant to their product, others will pick unfamiliar, novel design problems to accurately access your design process. So the most important and effective way to prepare is to have a strategy and practice using it.
 
 Remember the design process: **Discover, define, develop, deliver.**
-If you prefer using a different design process, use that! Some people outlined more specific steps for design whiteboard challenges, but design principles don't change just because its an interview. You should be completely comfortable with the design process by now so there's no reason to panic.
+If you prefer using a different design process, use that! Some people outlined more specific steps for design whiteboard challenges, but the general design process doesn't change just because its an interview. You should be completely comfortable with the design process by now so there's no reason to panic.
 
 Keep track of time! It's easy to get bogged down in all the initial questions about scope or to talk a lot about research, but try to get to the "boxes and arrows" part before you run out of time.
 
@@ -41,7 +41,7 @@ Some designers are deliberate thinkers, and list out all of the tasks before beg
 - Specifications
 - Requirements
 
-Before you start designing screens, make sure you at least clearly outline the user flow for the primary use case. Outlining the steps can organize your thoughts and process while acting as a reference to keep you on track while you wireframe.
+Before you start designing screens, make sure you at least clearly outline the user flow for the primary use case. Outlining the steps organizes your thoughts and process while acting as a reference to keep you on track while you wireframe.
 
 ### Develop
 
