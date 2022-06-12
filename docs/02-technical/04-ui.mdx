@@ -11,61 +11,81 @@ Questions & Answers to UI questions. Pull requests for suggestions and correctio
 ## Table of contents
 
 - <Question question='What is UI design?' />
-- <Question question='What are the components of UI design?' />
-- <Question question='What are important design principles for good UI design? ' />
+- <Question question='What are some common components in UI design?' />
+- <Question question='What are important design topics to know that enable good UI design?' />
 - <Question question='What’s the difference between UX and UI?' />
 - <Question question='What’s a design system? What experiences do you have working with them?' />
 - <Question question='What are UI heuristics? Can you give an example of any?' />
-- <Question question='Difference between atom, token, component, and pattern?' />
+- <Question question='What is the difference between atom, token, component, and pattern?' />
 
 ### What is UI design?
 
-In computation, an interface is a boundary in which two components of a system exchange information. A user interface is a point of interaction between a computer and humans; it includes any number of modalities of interaction (such as graphics, sound, position, movement, etc.) where data is transferred between the user and the computer system.
+User interface design focuses on designing intuitive environments, points of interaction, that increase a user’s ability to effortlessly experience and interact with a product. As UI designers, they must advocate on behalf of the user, ensuring that the interfaces truly assist and guide the user from task to task, enable work to be done,
+and ultimately improve quality of life.
 
-So a user interface is the boundary in which a user exchanges information with another component that's part of the computer system. Generally, the goal of user interface design is to produce a user interface that makes it easy, efficient, and enjoyable (user-friendly) to operate a machine in the way which produces the desired result (i.e. maximum usability).
+In computation, an interface is a boundary in which two components of a system exchange information. In this case, the UI is the boundary between the user and the computer. This includes any number of modalities of interaction where data is transferred between the user and the computer system.
 
-This generally means that the operator needs to provide minimal input to achieve the desired output, and also that the machine minimizes undesired outputs to the user.
+To elaborate, a user interface is the representation
+of a system—the summation of all its input devices,
+conceptual models, and interaction techniques—
+with which a user interacts. User interface represents and reinforces the
+user’s conceptual model of the system in concert
+with the input device and interaction techniques, and presents affordances and constraints that
+make it clear to the users how to achieve key tasks. This includes any number of modalities of interaction where data is transferred between the user and the computer system.
 
-### What are the components of UI design?
-
-UI components and variants in design and code
-
-- Design tokens
-- Typography system
-- Color system
-- Layout/Grid system
-- Icon system
-
-Some components of UI are:
-
-- Visual Hierarchy
-- Constrast
-- Space
-- UI
-- Component design
-- Grid
-- Typography
-
-### What are important design principles for good UI design?
-
-Feedback
-Intuitive
-Usability
-Visual Design
-Heuristics
-
-### What’s the difference between UX and UI?
-
-Scope:
-UI is limited to the interface
-UX is very broad because experiences are influenced by many things and extend beyond the UI. For example, it may examine the context, environment, mindset, and limitations of a user. The UI is just one of those things that may influence their experience.
-They operate on different layers/levels. UX lays the foundation for UI.
-UX -> interaction -> UI
+The difference between UI & interaction design is "what" and "how". UI Design is designing what the user interacts with, interaction design is designing how the user interacts with the system. These two fields have a lot of overlap.
 
 ##### References
 
-- https://maze.co/blog/ui-vs-ux/
-- https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/
+- https://en.wikipedia.org/wiki/User_interface_design
+- https://en.wikipedia.org/wiki/Interface_(computing)
+- Julie A. Jacko. 2012. Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies, and Emerging Applications, Third Edition (3rd. ed.). CRC Press, Inc., USA.
+
+### What are some common components in UI design?
+
+Interface elements generally fall into the following catergories.
+
+- **Input Controls**: checkboxes, radio buttons, dropdown lists, list boxes, buttons, toggles, text fields, date field
+- **Navigational Components**: breadcrumb, slider, search field, pagination, slider, tags, icons
+- **Informational Components**: tooltips, icons, progress bar, notifications, message boxes, modal windows
+- **Containers**: accordion
+
+##### References
+
+- https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html
+
+### What are important design topics to know that enable good UI design?
+
+For a standardized definition of UI Requirements, reference **ISO 9241** which describe:
+
+- **Dialogue**
+- **Usability**, including presentation of information such as: clarity, discriminability, conciseness, consistency, detectability, legibility, comprehensibility.
+- **User Guidance**
+
+Additionally, some other topics to be aware of are:
+
+- Accessibility
+- Aesthetics
+- Alignment
+- Color Theory
+- Consistency
+- Constrast
+- Feedback
+- Gestalt Principles
+- Grid
+- Heuristics
+- Lighting & Shadows
+- Motion
+- Organization
+- Spacing & Vertical Rhythmn
+- State
+- Transitions
+- Typography
+- Visual Hierarchy
+
+### What’s the difference between UX and UI?
+
+While UI is certainly an important part of UX, UI is only an aspect of UX. UX is a broad, general umbrella term for several related topics including research, prototyping, information architecture, interaction design, visual design, and UI design.
 
 ### What’s a design system? What experiences do you have working with them?
 
@@ -81,18 +101,79 @@ A design system can also be thought of as systems of systems. A design system of
 
 Brad Frost notes an important distinction to make is that design systems only relate to UI, not digital products in general. This is because it puts an undue burden on the design system to account for every aspect of creating a digital product and leads to a lot confusion across an organization.
 
-A good way to put it is "Design systems care about __________ as it pertains to user interfaces."
-
 ##### References
 
 - https://bradfrost.com/blog/post/design-systems-are-for-user-interfaces/
 - https://www.designsystem.tools/
 - https://www.designsystems.com/
 
-### What are UI heuristics? Can you give an example of any?
+### What are UI heuristics? Can you give some examples?
+
+Heuristics are broad rules of thumb and not specific usability guidelines. The following heuristics were developed by Molich & Nielsen.
+
+#### 1: Visibility of system status
+
+The design should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time.
+
+#### 2: Match between system and the real world
+
+The design should speak the users' language. Use words, phrases, and concepts familiar to the user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order.
+
+#### 3: User control and freedom
+
+Users often perform actions by mistake. They need a clearly marked "emergency exit" to leave the unwanted action without having to go through an extended process.
+
+#### 4: Consistency and standards
+
+Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.
+
+#### 5: Error prevention
+
+Good error messages are important, but the best designs carefully prevent problems from occurring in the first place. Either eliminate error-prone conditions, or check for them and present users with a confirmation option before they commit to the action.
+
+#### 6: Recognition rather than recall
+
+Minimize the user's memory load by making elements, actions, and options visible. The user should not have to remember information from one part of the interface to another. Information required to use the design (e.g. field labels or menu items) should be visible or easily retrievable when needed.
+
+#### 7: Flexibility and efficiency of use
+
+Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the design can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
+
+#### 8: Aesthetic and minimalist design
+
+Interfaces should not contain information which is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility.
+
+#### 9: Help users recognize, diagnose, and recover from errors
+
+Error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution.
+
+#### 10: Help and documentation
+
+It’s best if the system doesn’t need any additional explanation. However, it may be necessary to provide documentation to help users understand how to complete their tasks.
+
+###### References
+
+- https://www.nngroup.com/articles/ten-usability-heuristics/
+
+### What is the difference between atom, token, component, and pattern
+
+Atoms were defined in Atomic Design by Brad Frost. He defines it as the smallest reusable building blocks used to create UI components. Some examples are buttons, links, or input field boxes.
+
+Design tokens are standardized style values of UI elements such as color, typography, spacing, shadows, etc. Design tokens are used to ensure designers and developers choose consistent values
+
+A component is a UI element that can be thought of as singular element and reused as a building block for the rest of the UI. Components may contain other components or used within other components. Yhere is no standardized list of components and it is up to the designer or developers to classify their UI elements. For example, Material Design defines components as "interactive building blocks for creating a user interface."
+
+Patterns are recurring, best practice solutions to common design problems. Patterns are usually combinations of components, may be dynamic, and should have guidelines for their usage.
+
+##### References
+
+- https://bradfrost.com/blog/post/atomic-web-design/
+- https://xd.adobe.com/ideas/principles/design-systems/what-are-design-tokens/
+- https://material.io/components?platform=web
+- https://ui-patterns.com/
 
 [[↑] Back to top](#table-of-contents)
 
 <!-- UI heuristics, gestalt principles, accessibility ?
-https://www.nngroup.com/articles/ten-usability-heuristics/
+
 -->

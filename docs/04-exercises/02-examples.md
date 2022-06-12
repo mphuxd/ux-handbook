@@ -14,6 +14,8 @@ import Question from "@site/src/components/Questions";
 - <Question question="Hotel Booking and Reservation"/>
 - <Question question="Online slot machine."/>
 
+
+
 ### Bus Kiosk Station
 
 This design challenge is from <a href="https://library.gv.com/how-to-interview-a-designer-with-the-perfect-design-exercise-2c99e6646612">"How to evaluate a designer with a design exercise" by Braden Kowitz</a>.
@@ -139,3 +141,10 @@ Technology is increasingly designed to be addictive.
 ##### References
 
 - https://www.theguardian.com/australia-news/datablog/ng-interactive/2017/sep/28/hooked-how-pokies-are-designed-to-be-addictive
+
+
+
+
+<!-- - <Question question="Consulting App for Doctors"/> 
+How would I design a dashboard for analytic data. 
+Design a mobile checkout process exercise-->
