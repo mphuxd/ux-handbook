@@ -13,12 +13,12 @@ They are frequently used to assess your problem solving skills, design process, 
 
 ## Strategy
 
-There's no way to know which design challenges they will ask you to solve. Some companies may choose scenarios relevant to their product, others will pick unfamiliar, novel design problems to accurately access your design process. So the most important and effective way to prepare is to have a strategy and practice using it.
+There's no way to know which design challenges they will ask you to solve. Some companies may choose scenarios relevant to their product, others will pick unfamiliar, novel design problems to accurately access your design process. So, the most effective way to prepare is by having a strategy and practice using it.
 
 Remember the design process: **Discover, define, develop, deliver.**
 If you prefer using a different design process, use that! Some people outlined more specific steps for design whiteboard challenges, but the general design process doesn't change just because its an interview. You should be completely comfortable with the design process by now so there's no reason to panic.
 
-Keep track of time! It's easy to get bogged down in all the initial questions about scope or to talk a lot about research, but try to get to the "boxes and arrows" part before you run out of time.
+Keep track of time. While it's important to ask questions and discuss about research, get to the "boxes and arrows" part before you run out of time.
 
 ### Discover
 
@@ -33,7 +33,7 @@ Break down the problem. Start by taking a couple minutes to clarify the scenario
 
 ### Define
 
-Some designers are deliberate thinkers, and list out all of the tasks before beginning to draw. Others are explorers — they’ll uncover tasks as they play with ideas. Both ways are fine. Either way, you should clearly communicate user tasks and goals. 
+Some designers are deliberate thinkers, and list out all of the tasks before beginning to draw. Others are explorers — they’ll uncover tasks as they play with ideas. Both ways are fine. Either way, you should clearly communicate user tasks and goals.
 
 - **Use cases & tasks**
 - **User Story/Flow**
@@ -45,18 +45,16 @@ Before you start designing screens, make sure you at least clearly outline the u
 
 ### Develop
 
-Great design requires generating lots of ideas, and then picking out the best ones. Find several different approaches to the design exercise and talk through each one. Don’t just sketch screens, write out a list of menu items, or things you’d want to test, etc. While you do this, stay organized. If you get stuck, brainstorm your way out. Break the problem down until it feels manageable. If you feel yourself being indecisive, just pick a direction to explore. 
+Great design requires generating lots of ideas, and then picking out the best ones. Find several different approaches to the design exercise and talk through each one. If you get stuck, brainstorm your way out by breaking the problem down until it feels manageable. If you feel yourself being indecisive, just pick a direction to explore.
 
 - Important UI & screens
 - Potential solutions
 - Interactions
 - Feedback
 
-Remember that you’re not trying to actually come up with the best solution ever. In fact, some interviewers prefer if you come up with several creative solutions. You’re showing how you think, work, and overcome challenges. 
+Remember that you’re not trying to actually come up with the best solution ever. In fact, some interviewers prefer if you come up with several creative solutions. You’re showing how you think, work, and overcome challenges.
 
-Design is an iterative process. Don’t be afraid to scrap an unworkable idea in the middle of the challenge. You might be sketching a flow and realize the design isn’t solving the problem, or ignores a constraint, or whatever. Just say “Huh, I don’t think this will work because XYZ. Let’s go back to this step. Maybe if we…” and then continue on that track. 
-
-This shows that you’re comfortable throwing away ideas, you can recognize when you’re off track, and it’s another opportunity to brainstorm a solution. Go back to your outline and adjust the flow. 
+Design is an iterative process. If you find that your current design isn’t solving the problem, or ignores a constraint, or whatever, explain your reasoning for why it fails and go back to a previous step and continue from there. This demonstrates you're comfortable throwing away ideas and you can recognize when you’re off track. Go back to your outline and adjust the flow.
 
 ### Deliver
 
@@ -66,7 +64,7 @@ If you’ve hit a wall and you don’t have much time left for the challenge, yo
 
 ## Practice
 
-Design challenges can definitely sound overwhelming at first. The best way to overcome this is to get a whiteboard or pen and paper and just start solving problems. Use a design challenge generator like https://designercize.com/ for prompts. Set up a scenario, fill in some constraints, use cases, similarly to how an interviewer sets it up before handing off the marker. Set a timer, and dive right in. You might find that design challenges can actually be a lot of fun. 
+Design challenges can be overwhelming at first. The best way to overcome this is to get a whiteboard or pen and paper and just start solving problems. Use a design challenge generator like https://designercize.com/ for prompts. Set up a scenario, fill in some constraints, use cases, similarly to how an interviewer sets it up before handing off the marker. Set a timer and start. You might find that design challenges can actually be a lot of fun.
 
 ##### References
 

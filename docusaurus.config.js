@@ -59,7 +59,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: "UX Logo",
-          src: "img/logo3.png",
+          src: "img/logo_rect.png",
         },
 
         // items: [
@@ -90,15 +90,15 @@ const config = {
             items: [
               {
                 label: "Introduction",
-                to: "/docs/intro",
+                to: "/",
               },
               {
                 label: "Getting Started",
-                to: "/docs/getting-started",
+                to: "/getting-started",
               },
               {
                 label: "Resources",
-                to: "/docs/intro",
+                to: "/resources",
               },
             ],
           },
@@ -107,19 +107,19 @@ const config = {
             items: [
               {
                 label: "Technical Questions",
-                to: "/docs/intro",
+                to: "/technical/overview",
               },
               {
                 label: "Behavioral Questions",
-                to: "/docs/intro",
+                to: "/behavioral/overview",
               },
               {
                 label: "UX Presentations",
-                to: "/docs/intro",
+                to: "/presentations",
               },
               {
                 label: "Design Exercises",
-                to: "/docs/intro",
+                to: "/exercises/overview",
               },
             ],
           },
@@ -128,15 +128,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://twitter.com/docusaurus",
+                href: "https://github.com/mphuxd/ux-handbook",
               },
             ],
           },
@@ -145,16 +137,16 @@ const config = {
             items: [
               {
                 label: "About",
-                to: "/about",
+                to: "/misc/about",
               },
               {
                 label: "How to contribute",
-                to: "/about",
+                to: "/misc/contribute",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus. Open source and free to use, forever.`,
+        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus. Open source and free to use forever.`,
       },
       prism: {
         theme: lightCodeTheme,

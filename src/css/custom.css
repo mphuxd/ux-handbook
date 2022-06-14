@@ -5,12 +5,11 @@
  */
 @import "_fonts.css";
 
-/* h4 {
-  font-family: "officecode", Noto Sans, system-ui, -apple-system, Segoe UI, Roboto,
-  Ubuntu, Cantarell, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-transform: uppercase;
-} */
+h1 {
+  font-family: "Arimo", Noto Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
 .docMainContainer_src-theme-DocPage-Layout-Main-styles-module {
   flex-direction: column;
@@ -32,11 +31,7 @@
 }
 
 .theme-doc-markdown {
-  font-size: 1.1rem;
-}
-
-.landing_h1 {
-  font-size: 4rem;
+  font-size: 1.125rem;
 }
 
 .theme-doc-sidebar-menu {
@@ -51,6 +46,10 @@
   opacity: 0;
 }
 
+.navbar__title {
+  font-size: 1.25rem;
+}
+
 @media screen and (max-width: 996px) {
   .navbar {
     background: initial;
@@ -58,7 +57,6 @@
   }
   .navbar__brand {
     opacity: 100;
-
   }
 
   .theme-doc-markdown {
@@ -68,13 +66,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0062bf;
+  --ifm-color-primary-dark: #004c95;
+  --ifm-color-primary-darker: #00488d;
+  --ifm-color-primary-darkest: #003b74;
+  --ifm-color-primary-light: #005db7;
+  --ifm-color-primary-lighter: #0062bf;
+  --ifm-color-primary-lightest: #006ed8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-heading-font-family: "Arimo", Noto Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
@@ -84,16 +82,17 @@
     sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
   --ifm-footer-background-color: none;
+  /* --ifm-font-color-base: #202124; */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #5ebcff;
+  --ifm-color-primary-dark: #3badff;
+  --ifm-color-primary-darker: #2aa6ff;
+  --ifm-color-primary-darkest: #008ff4;
+  --ifm-color-primary-light: #81cbff;
+  --ifm-color-primary-lighter: #92d2ff;
+  --ifm-color-primary-lightest: #c7e8ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
