@@ -64,6 +64,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "User, Experience, Design, Research, Product, Interview, Preparation, Questions, Answers, UX",
+        },
+      ],
+      // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
+
       navbar: {
         title: "UX Interview Handbook",
         hideOnScroll: true,
