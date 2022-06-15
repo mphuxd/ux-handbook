@@ -9,6 +9,7 @@ h1 {
   font-family: "Arimo", Noto Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
     sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.5rem;
 }
 
 .footer__links {
@@ -26,12 +27,9 @@ h1 {
   font-weight: normal;
 }
 
-.theme-doc-markdown {
-  font-size: 1.125rem;
-}
-
 .theme-doc-sidebar-menu {
   font-family: var(--ifm-font-family-base);
+  font-size: 1rem;
 }
 .navbar {
   box-shadow: none;
