@@ -4,17 +4,18 @@ title: Examples
 ---
 
 import Question from "@site/src/components/Questions";
+import Link from "@docusaurus/Link";
 
 # Design Exercise Examples
 
 ## Table of contents
 
-- <Question question="Bus Kiosk Station"/>
-- <Question question="Airport Restaurant Order"/>
-- <Question question="Hotel Booking and Reservation"/>
-- <Question question="Online slot machine."/>
+- <Question question='Bus Kiosk Station' />
+- <Question question='Airport Restaurant Order' />
+- <Question question='Hotel Booking and Reservation' />
+- <Question question='Online slot machine.' />
 
-
+You can find more examples <Link to="/behavioral/companies">here</Link>.
 
 ### Bus Kiosk Station
 
@@ -24,7 +25,7 @@ Imagine we’re designing a kiosk at a transit stop. Its purpose is to let regul
 
 We’ve provided a design goal, user description, and time limit. Now start drawing the machine on the whiteboard and explain as we go.
 
-<img src="/img/bus-kiosk.jpg" />
+<img src='/img/bus-kiosk.jpg' />
 
 - This machine lets regular commuters re-fill their transit card with cash.
 - There are four push buttons, and a 40-character text display next to each button.
@@ -33,10 +34,10 @@ We’ve provided a design goal, user description, and time limit. Now start draw
 If you ask the right questions, you find some constraints are:
 
 <details>
-<summary>Additional Constraints</summary>
-<li>Actually the max allowed on a card is $50.</li>
-<li>That dot on the bill acceptor? Oh yeah, that’s a light we can turn on and off.</li>
-<li>The machine is right next to a station agent, who can help with anything.</li>
+  <summary>Additional Constraints</summary>
+  <li>Actually the max allowed on a card is $50.</li>
+  <li>That dot on the bill acceptor? Oh yeah, that’s a light we can turn on and off.</li>
+  <li>The machine is right next to a station agent, who can help with anything.</li>
 </details>
 
 ##### Reference & Answer
@@ -49,16 +50,19 @@ This design challenge is from <a href="https://uxdesign.cc/5-steps-to-master-a-w
 
 Design an ordering interface for an airport restaurant.
 
-<img src="https://cdn1.vox-cdn.com/thumbor/neJR1Pjm2e9UG-Ac6IS8tAix33I=/cdn0.vox-cdn.com/uploads/chorus_asset/file/3461336/newark2.0.jpeg" />
+<img src='https://cdn1.vox-cdn.com/thumbor/neJR1Pjm2e9UG-Ac6IS8tAix33I=/cdn0.vox-cdn.com/uploads/chorus_asset/file/3461336/newark2.0.jpeg' />
 
 As practice, write down some questions about the scenario before looking at the constraints.
 
 <details>
-<summary>Additional Constraints</summary>
-<li>What is the goal of the design? A: An efficient, hassle-free and fun dining experience for busy travelers</li>
-<li>What kind of airport? A: International airport</li>
-<li>What kind of restaurant? A: A dine-in restaurant with food and drinks</li>
-<li>What kind of device? A: Tablet devices on each table</li>
+  <summary>Additional Constraints</summary>
+  <li>
+    What is the goal of the design? A: An efficient, hassle-free and fun dining experience for busy
+    travelers
+  </li>
+  <li>What kind of airport? A: International airport</li>
+  <li>What kind of restaurant? A: A dine-in restaurant with food and drinks</li>
+  <li>What kind of device? A: Tablet devices on each table</li>
 </details>
 
 These should be enough to get you started.
@@ -67,18 +71,17 @@ These should be enough to get you started.
 
 - https://uxdesign.cc/5-steps-to-master-a-whiteboard-design-challenge-6ecbe9ec38b7
 
-
 ### Hotel Booking and Reservation
-Design a hotel booking and reservation system for a travel agency. 
+
+Design a hotel booking and reservation system for a travel agency.
 
 <details>
-<summary>Additional Constraints</summary>
-<li>Responsive website.</li>
-<li>The primary market is United States.</li>
-<li>There are thousands of hotels to pick from.</li>
-<li>Hotels may already have reservations or unavailable during certain dates.</li>
+  <summary>Additional Constraints</summary>
+  <li>Responsive website.</li>
+  <li>The primary market is United States.</li>
+  <li>There are thousands of hotels to pick from.</li>
+  <li>Hotels may already have reservations or unavailable during certain dates.</li>
 </details>
-
 
 <details>
 <summary>What I'm looking for</summary>
@@ -93,29 +96,27 @@ Design a hotel booking and reservation system for a travel agency.
 
 </details>
 
-
-
 ### Online Slot Machine
 
 Design the UI for a slot machine.
 
-<img src="/img/slots.jpg" />
+<img src='/img/slots.jpg' />
 
 - Don't worry about the specifics of win conditions & game mechanics.
 - When the slots meet a certain win condition, trigger a special game event where players can win more money.
 - For the game event, the UI should indicate the number of free spins left and the current win multiplier.
 
 <details>
-<summary>Additional Constraints</summary>
-<li>It's for a machine in a casino.</li>
-<li>The primary market is United States.</li>
-<li>It should be fun, addictive, and profitable for the casino.</li>
-<li>It has one large digital display & built-in speakers.</li>
-<li>It has touch controls and a single physical circular button that can be lit up.</li>
-<li>The machine reads a card to withdraw and deposit the players credits.</li>
-<li>The user should be able to change the bet amount. Use the denominations 10, 20, 50, 100.</li>
-<li>There should be at least 3 reels but no more than 5.</li>
-<li>There should be at 5 different symbols on a reel but no more than 8.</li>
+  <summary>Additional Constraints</summary>
+  <li>It's for a machine in a casino.</li>
+  <li>The primary market is United States.</li>
+  <li>It should be fun, addictive, and profitable for the casino.</li>
+  <li>It has one large digital display & built-in speakers.</li>
+  <li>It has touch controls and a single physical circular button that can be lit up.</li>
+  <li>The machine reads a card to withdraw and deposit the players credits.</li>
+  <li>The user should be able to change the bet amount. Use the denominations 10, 20, 50, 100.</li>
+  <li>There should be at least 3 reels but no more than 5.</li>
+  <li>There should be at 5 different symbols on a reel but no more than 8.</li>
 </details>
 
 <details>
@@ -142,9 +143,6 @@ Technology is increasingly designed to be addictive.
 
 - https://www.theguardian.com/australia-news/datablog/ng-interactive/2017/sep/28/hooked-how-pokies-are-designed-to-be-addictive
 
-
-
-
-<!-- - <Question question="Consulting App for Doctors"/> 
-How would I design a dashboard for analytic data. 
+<!-- - <Question question="Consulting App for Doctors"/>
+How would I design a dashboard for analytic data.
 Design a mobile checkout process exercise-->

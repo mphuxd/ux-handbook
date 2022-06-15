@@ -8,6 +8,10 @@ import Question from "@site/src/components/Questions";
 
 Questions & Answers to UX interview questions. Pull requests for suggestions and corrections are welcome!
 
+:::caution
+**This section is a work in progress.**
+:::
+
 ## Table of contents
 
 - <Question question='What is UX?*' />
@@ -17,7 +21,7 @@ Questions & Answers to UX interview questions. Pull requests for suggestions and
 - <Question question='What’s a wireframe? Prototype? What are the differences?' />
 - <Question question='What is a user persona?' />
 - <Question question='What tools are you familiar with? What tools are important for a UX designer?*' />
-- <Question question='What are some of the differences between designing for desktop and mobile devices?*' />  
+- <Question question='What are some of the differences between designing for desktop and mobile devices?*' />{" "}
 - <Question question='How would you define visual hierarchy?' />
 - <Question question='What are design principles? Why are they important?*' />
 - <Question question='How would you describe the basic philosophies or principles that inform your designs?' />
@@ -37,7 +41,7 @@ Questions & Answers to UX interview questions. Pull requests for suggestions and
 
 **User Experience Design** is about dictating the experience people have with a product, company, or service.
 
-UX emerged as a discipline of HCI. To start, the combination of Engineering and psychology formed Humans Factor Engineering (HFE), of which Industrial Design, Product Design, and HCI are subcategories. The divergence of HFE and HCI came after cognitive psychology became more and more influential and referenced in HCI literature and academia. Under HCI are interaction design, user experience, and UI design.
+UX Design emerged as a discipline of Human-Computer Interaction (HCI). To start, the combination of Engineering and psychology formed Humans Factor Engineering (HFE), of which Industrial Design, Product Design, and HCI are subcategories. The divergence of HFE and HCI came after Cognitive Psychology became more and more influential and referenced in HCI literature and academia. Under HCI are Interaction Design, User Experience Design, and User Interface design.
 
 HCI is about understanding how humans and computers interact whereas UX is about dictating or shaping how people experience something. But because you need to understand how users interact with computers to design good user experiences, UX falls under HCI. However, UX is becoming more increasingly broad and less constrained to purely human-computer interactions.
 
@@ -114,14 +118,26 @@ A **user persona** is a concise representation of an archetypal user used to ali
 
 ### What are some of the differences between designing for desktop and mobile devices?
 
-Obviously with mobile there's less space, so its about determining how to use that space efficiently and effectively. This means deferring information and details to other pages, and focusing on user flows. Also means you’re limited by mobile computing performance, so you have to be aware of how computationally intensive complex interactions and components might be.
+Does each have a different user interface model? What
+are the commonalities, and what are the differences? The
+answer varies depending on the application, because no standard has yet been reached.
 
-In web design, designing for mobile and desktop usually means creating responsive components, so it's not really about designing for either, you have to design for both at the same time so they are compatible on all screens. So when designing for mobile, you have to be aware of how you might shift the layout at higher resolutions and vice versa.
+There are also differences in web-development responsive design vs native mobile & desktop applications. For device specific appplications, you should refer to the device guidelines from the manufacturers and operating systems.
 
-For mobile apps, you should refer to the device guidelines from the manufacturers.
+Summary of key differences
+
+- Content prioritization & deferment.
+- Internet Speed, data.
+- Computational power, hardware, input devices (accelerometers, gyroscopes, magnetometers, proximity sensors)
+- Device behavior, interaction techniques
+- Navigation
+- Context & Environment
+- Development process
+- User Expectations
 
 ##### References
 
+- Julie A. Jacko. 2012. Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies, and Emerging Applications, Third Edition (3rd. ed.). CRC Press, Inc., USA.
 - https://developer.apple.com/design/
 - https://material.io/
 
@@ -129,9 +145,7 @@ For mobile apps, you should refer to the device guidelines from the manufacturer
 
 Order of visual importance.
 
-Visual hierarchy is the principle of arranging elements to show their order of importance or used to influence perception of elements in the order you want your users to view them.
-
-Visual hierarchy is the order in which humans process information on a page. It's a system to prioritize elements so that they are easily understood.
+Visual hierarchy is the principle of arranging elements to show their order of importance or used to influence perception of elements in the order you want your users to view them. It can affect the way in which humans process information on a page. It's a system to prioritize elements so that they are easily understood.
 
 ### What are design principles? Why are they important?
 
@@ -163,26 +177,29 @@ By designing for all three of these levels, you can emotionalize design.
 
 ### In your work, how do you practice universal design?
 
-In theory
-Accessibility
-Typography
-Contrast colors
-Also test for variations of color blindness
-Universal design also means designing for different cultures
-UI compatibility
-RTL.LTR text
-Dates
-Character limits
-Colors have different meanings/perception
-Ability to change language
-ARIA
-w3
+- Accessibility
+- Typography
+- Color Contrast
+- Color blindness
+- Aware of Cultural Differences
+- Color perception & meaning
+- UI compatibility
+- RTL & LTR text
+- Date format
+- Character limits
+- Ability to change language
+- WAI-ARIA
+- W3 WCAG Guidelines
 
 ### How do you make a product accessible to users with disabilities?
 
 Follow the ARIA accessibility guidelines.
 Use tests to determine potential issues.
-Gather data, feedback
+Gather data, feedback.
+
+##### References
+
+- https://www.w3.org/WAI/
 
 ### What is your process for deciding which features to add to your product?
 
@@ -209,10 +226,12 @@ Determine, measure and analyze KPIs.
 ### What analytical tools, data and KPIs have you used to evaluate your previous designs?
 
 Tools
+
 - Google Analytics
 - Google Lighthouse
 
 Metrics
+
 - Largest Contentful Paint (LCP).
 - First Input Delay (FID).
 - Cumulative Layout Shift (CLS).
@@ -223,6 +242,7 @@ Metrics
 - Interactivity
 
 Pulse Framework
+
 - Page Views
 - Uptime
 - Latency
@@ -230,6 +250,7 @@ Pulse Framework
 - Earnings
 
 HEART Framework
+
 - Happiness: Satisfaction, NPS, Surveys. More qualitative.
 - Engagement: User activity, CTR,
 - Adoption - New Users, DAU, Registrations.
@@ -255,8 +276,6 @@ Support with data.
 - https://www.nngroup.com/articles/ux-without-user-research/
 
 ### What is something simple that is often overlooked in UX?
-
-- Visual Hierarchy
 
 
 ##### References
