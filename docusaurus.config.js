@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "UX Handbook",
+  title: "UX Interview Handbook",
   tagline: "Prepare for your UX interview",
   url: "https://uxinterviewhandbook.com",
   baseUrl: "/",
@@ -65,7 +65,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "UX Handbook",
+        title: "UX Interview Handbook",
         hideOnScroll: true,
         logo: {
           alt: "UX Logo",
