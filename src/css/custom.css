@@ -3,28 +3,96 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import "_fonts.css";
+
+h1 {
+  font-family: "Arimo", Noto Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.docMainContainer_src-theme-DocPage-Layout-Main-styles-module {
+  flex-direction: column;
+}
+
+.footer__links {
+  margin-top: 2rem;
+}
+
+.footer__copyright {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.button {
+  font-family: var(--ifm-font-family-base) !important;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.theme-doc-markdown {
+  font-size: 1.125rem;
+}
+
+.theme-doc-sidebar-menu {
+  font-family: var(--ifm-font-family-base);
+}
+.navbar {
+  box-shadow: none;
+  background: transparent;
+}
+
+.navbar__brand {
+  opacity: 0;
+}
+
+.navbar__title {
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 996px) {
+  .navbar {
+    background: initial;
+    background-color: var(--ifm-navbar-background-color);
+  }
+  .navbar__brand {
+    opacity: 100;
+  }
+
+  .theme-doc-markdown {
+    font-size: 1rem;
+  }
+}
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0062bf;
+  --ifm-color-primary-dark: #004c95;
+  --ifm-color-primary-darker: #00488d;
+  --ifm-color-primary-darkest: #003b74;
+  --ifm-color-primary-light: #005db7;
+  --ifm-color-primary-lighter: #0062bf;
+  --ifm-color-primary-lightest: #006ed8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-font-family: "Arimo", Noto Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --ifm-font-family-base: "Arimo", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --ifm-footer-background-color: none;
+  /* --ifm-font-color-base: #202124; */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #5ebcff;
+  --ifm-color-primary-dark: #3badff;
+  --ifm-color-primary-darker: #2aa6ff;
+  --ifm-color-primary-darkest: #008ff4;
+  --ifm-color-primary-light: #81cbff;
+  --ifm-color-primary-lighter: #92d2ff;
+  --ifm-color-primary-lightest: #c7e8ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }

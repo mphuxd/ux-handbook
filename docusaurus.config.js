@@ -6,13 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "UX Handbook",
+  tagline: "Prepare for your UX interview",
+  url: "https://uxinterviewhandbook.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -34,8 +34,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarCollapsed: false,
           routeBasePath: "/",
-          breadcrumbs: false,
+          breadcrumbs: true,
+          editUrl: "https://github.com",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
 
         blog: false,
@@ -51,35 +55,71 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "UX Handbook",
+        hideOnScroll: true,
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "UX Logo",
+          src: "img/logo_rect.png",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+
+        // items: [
+        //   {
+        //     type: "doc",
+        //     docId: "intro",
+        //     position: "left",
+        //     label: "Tutorial",
+        //   },
+        //   // {to: '/blog', label: 'Blog', position: 'left'},
+        //   {
+        //     href: "https://github.com/facebook/docusaurus",
+        //     label: "GitHub",
+        //     position: "right",
+        //   },
+        // ],
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
-            title: "Docs",
+            title: "General",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Introduction",
+                to: "/",
+              },
+              {
+                label: "Getting Started",
+                to: "/getting-started",
+              },
+              {
+                label: "Resources",
+                to: "/resources",
+              },
+            ],
+          },
+          {
+            title: "Prepare",
+            items: [
+              {
+                label: "Technical Questions",
+                to: "/technical/overview",
+              },
+              {
+                label: "Behavioral Questions",
+                to: "/behavioral/overview",
+              },
+              {
+                label: "UX Presentations",
+                to: "/presentations",
+              },
+              {
+                label: "Design Exercises",
+                to: "/exercises/overview",
               },
             ],
           },
@@ -87,16 +127,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "GitHub",
+                href: "https://github.com/mphuxd/ux-handbook",
               },
             ],
           },
@@ -104,17 +136,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "About",
+                to: "/misc/about",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "How to contribute",
+                to: "/misc/contribute",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus. Open source and free to use forever.`,
       },
       prism: {
         theme: lightCodeTheme,
