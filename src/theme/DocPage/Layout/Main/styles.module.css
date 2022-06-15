@@ -7,6 +7,7 @@
   .docMainContainer {
     flex-grow: 1;
     max-width: calc(100% - var(--doc-sidebar-width));
+    flex-direction: column;
   }
 
   .docMainContainerEnhanced {
