@@ -27,6 +27,16 @@ const config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-RK7HEE6FGN",
+        anonymizeIP: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       "classic",
@@ -41,10 +51,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
-        gtag: {
-          trackingID: "G-RK7HEE6FGN",
-          anonymizeIP: true,
-        },
+
         blog: false,
 
         theme: {
