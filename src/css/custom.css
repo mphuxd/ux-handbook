@@ -29,8 +29,9 @@ h1 {
 
 .theme-doc-sidebar-menu {
   font-family: var(--ifm-font-family-base);
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
+
 .navbar {
   box-shadow: none;
   background: transparent;
@@ -40,9 +41,13 @@ h1 {
   opacity: 0;
 }
 
-.navbar__title {
-  font-size: 1.25rem;
+.navbar__logo {
+  height: 3rem;
 }
+
+.navbar__title {
+  font-size: 1.125rem;
+} 
 
 @media screen and (max-width: 996px) {
   .navbar {
@@ -77,6 +82,7 @@ h1 {
     "Segoe UI Emoji", "Segoe UI Symbol";
   --ifm-footer-background-color: none;
   /* --ifm-font-color-base: #202124; */
+  --doc-sidebar-width: 272px !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
