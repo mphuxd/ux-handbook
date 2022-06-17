@@ -15,7 +15,7 @@ const FeatureList = [
     ),
 
     // link: <Button className='MuiButton-containedInherit' variant='outlined' color="inherit">Get Started</Button>,
-    link: <button className='button button--outline button--primary'>Get Started</button>,
+    link: <button className='button button--filled button--primary'>Get Started</button>,
     slug: "/getting-started",
   },
   {
