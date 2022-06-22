@@ -96,6 +96,14 @@ const config = {
         //   },
         // ],
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "K9KQYBDFZ8",
+        // Public API key: it is safe to commit it
+        apiKey: "a5272f5cabc3d8473838f0186f8fa347",
+        indexName: "uxinterviewhandbook",
+        contextualSearch: true,
+      },
       docs: {
         sidebar: {
           hideable: true,
