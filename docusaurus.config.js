@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "UX Handbook",
+  title: "UX Interview Handbook",
   tagline: "Prepare for your UX interview",
   url: "https://uxinterviewhandbook.com",
   baseUrl: "/",
@@ -64,8 +64,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "User, Experience, Design, Research, Product, Interview, Preparation, Questions, Answers, UX",
+        },
+      ],
+      // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
+
       navbar: {
-        title: "UX Handbook",
+        title: "UX Interview Handbook",
         hideOnScroll: true,
         logo: {
           alt: "UX Logo",

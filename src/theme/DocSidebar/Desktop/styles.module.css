@@ -30,7 +30,7 @@
     max-height: var(--ifm-navbar-height);
     color: inherit !important;
     text-decoration: none !important;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .sidebarLogo img {
