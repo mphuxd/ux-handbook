@@ -9,6 +9,7 @@ import LayoutProviders from "@theme/LayoutProviders";
 import { PageMetadata, ThemeClassNames, useKeyboardNavigation } from "@docusaurus/theme-common";
 import ErrorPageContent from "@theme/ErrorPageContent";
 import "./styles.css";
+
 export default function Layout(props) {
   const {
     children,
