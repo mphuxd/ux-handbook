@@ -1,0 +1,23 @@
+.aboutPrinciples {
+  display: flex;
+  align-items: left;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .principles {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .principles {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .principles {
+    width: 33%;
+  }
+}

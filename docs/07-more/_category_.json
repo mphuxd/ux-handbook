@@ -1,8 +1,8 @@
 {
-  "label": "Misc",
+  "label": "More",
   "position": 7,
   "link": {
-    "slug": "/misc/about"
+    "slug": "/more/about"
   },
   "collapsed": true
 }

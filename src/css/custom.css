@@ -12,6 +12,12 @@ h1 {
   font-size: 2.5rem;
 }
 
+.button {
+  font-family: var(--ifm-font-family-base) !important;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
 .footer__links {
   margin-top: 2rem;
 }
@@ -19,17 +25,6 @@ h1 {
 .footer__copyright {
   text-align: left;
   margin-top: 2rem;
-}
-
-.button {
-  font-family: var(--ifm-font-family-base) !important;
-  font-size: 1.1rem;
-  font-weight: normal;
-}
-
-.theme-doc-sidebar-menu {
-  font-family: var(--ifm-font-family-base);
-  font-size: 0.9375rem;
 }
 
 .navbar {
@@ -47,13 +42,19 @@ h1 {
 
 .navbar__title {
   font-size: 1.125rem;
-} 
+}
+
+.theme-doc-sidebar-menu {
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.9375rem;
+}
 
 @media screen and (max-width: 996px) {
   .navbar {
     background: initial;
     background-color: var(--ifm-navbar-background-color);
   }
+
   .navbar__brand {
     opacity: 100;
   }
@@ -81,7 +82,6 @@ h1 {
     sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
   --ifm-footer-background-color: none;
-  /* --ifm-font-color-base: #202124; */
   --doc-sidebar-width: 272px !important;
 }
 

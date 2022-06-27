@@ -47,7 +47,7 @@ const config = {
           sidebarCollapsed: false,
           routeBasePath: "/",
           breadcrumbs: true,
-          editUrl: "https://github.com",
+          editUrl: "https://github.com/mphuxd/ux-handbook/blob/master/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -81,20 +81,6 @@ const config = {
           src: "img/logo_rect.png",
         },
 
-        // items: [
-        //   {
-        //     type: "doc",
-        //     docId: "intro",
-        //     position: "left",
-        //     label: "Tutorial",
-        //   },
-        //   // {to: '/blog', label: 'Blog', position: 'left'},
-        //   {
-        //     href: "https://github.com/facebook/docusaurus",
-        //     label: "GitHub",
-        //     position: "right",
-        //   },
-        // ],
       },
       algolia: {
         // The application ID provided by Algolia
@@ -164,11 +150,15 @@ const config = {
             items: [
               {
                 label: "About",
-                to: "/misc/about",
+                to: "/more/about",
               },
               {
-                label: "How to contribute",
-                to: "/misc/contribute",
+                label: "Contribute",
+                to: "/more/contribute",
+              },
+              {
+                label: "Contact",
+                to: "/more/contact-us",
               },
             ],
           },
