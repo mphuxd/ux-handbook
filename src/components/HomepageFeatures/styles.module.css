@@ -5,19 +5,3 @@
   width: 100%;
 
 }
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
-}
-
-/* .featureList {
-  flex: display;
-  flex-direction: row;
-}
-
-@media screen and (max-width: 996px) {
-  .featureList {
-    flex-direction: column;
-  }
-} */

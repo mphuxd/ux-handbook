@@ -33,7 +33,6 @@ export default function Layout(props) {
       <div className={clsx(ThemeClassNames.wrapper.main, wrapperClassName)}>
         <ErrorBoundary fallback={ErrorPageContent}>{children}</ErrorBoundary>
       </div>
-
       {/* {!noFooter && <Footer />}
       {/* Uses swizzled footer inside DocPage/Layout/Main */}
     </LayoutProviders>
