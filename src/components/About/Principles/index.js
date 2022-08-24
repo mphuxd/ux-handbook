@@ -18,7 +18,7 @@ const PrincipleList = [
     title: "Convenient",
     description: (
       <>
-        By compiling all resources, questions, answers all in one document, we make it more
+        By compiling all resources, questions, and answers all in one document, we make it more
         convenient and easier to focus on your interview prep to land your jobs.
       </>
     ),
@@ -28,8 +28,8 @@ const PrincipleList = [
     description: (
       <>
         Everything we do for this project is approached with helpfulness in mind. If it doesn't
-        help, it doesn't get added. No unnecessary decoration, irrelevant content to distract you
-        from what matters and pulling you out of your flow.
+        help, it doesn't get added. No unnecessary decoration or irrelevant content to distract you
+        from what matters and pull you out of your flow.
       </>
     ),
   },
@@ -38,8 +38,8 @@ const PrincipleList = [
     description: (
       <>
         As an open-source project, we are committed to helping the UX community. This means no
-        paywalls to limit anyone's access, making it free to use forever, and open to feedback to
-        make any improvements in order to better serve our community.
+        paywalls to limit anyone's access, making it free to use forever, and being open to feedback
+        to make any improvements to better serve our community.
       </>
     ),
   },
