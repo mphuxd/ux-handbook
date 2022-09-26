@@ -68,7 +68,7 @@ const config = {
         {
           name: "keywords",
           content:
-            "User, Experience, Design, Research, Product, Interview, Preparation, Questions, Answers, UX",
+            "UX Interview Handbook, UX Interview Questions, UX Interview Answers, UX Interview Preparation, UX research questions, UX design behavioral Interview Questions, Design Exercise Interview, UX Whiteboard Challenge Examples, User, Experience, Design, Research, Product, Interview, Preparation, Questions, Answers, design exercise interview",
         },
       ],
       // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
@@ -80,7 +80,6 @@ const config = {
           alt: "UX Logo",
           src: "img/logo_rect.png",
         },
-
       },
       algolia: {
         // The application ID provided by Algolia
