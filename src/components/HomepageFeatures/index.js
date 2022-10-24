@@ -20,8 +20,7 @@ const FeatureList = [
     title: "Prepare",
     description: (
       <>
-        Learn strategies to nail your interviews. Start with technical & behavioral questions, then
-        practice presenting & whiteboard challenges.
+        Learn strategies to nail your interviews, review common interview questions, and put your skills to test with presentations & whiteboard challenges.
       </>
     ),
     link: "View Questions",

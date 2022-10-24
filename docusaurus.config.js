@@ -162,7 +162,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus. Open source and free to use forever.`,
+        copyright: `Copyright © ${new Date().getFullYear()} UX Interview Handbook. Built with Docusaurus, open source, and free to use, forever.`,
       },
       prism: {
         theme: lightCodeTheme,
