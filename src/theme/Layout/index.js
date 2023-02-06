@@ -1,15 +1,15 @@
-import React from "react";
-import clsx from "clsx";
-import ErrorBoundary from "@docusaurus/ErrorBoundary";
-import SkipToContent from "@theme/SkipToContent";
-import AnnouncementBar from "@theme/AnnouncementBar";
-import Navbar from "@theme/Navbar";
-import Footer from "@theme/Footer";
-import LayoutProviders from "@theme/LayoutProviders";
-import { PageMetadata, ThemeClassNames, useKeyboardNavigation } from "@docusaurus/theme-common";
-import ErrorPageContent from "@theme/ErrorPageContent";
-import "./styles.css";
-
+import React from 'react';
+import clsx from 'clsx';
+import ErrorBoundary from '@docusaurus/ErrorBoundary';
+import { PageMetadata, SkipToContentFallbackId, ThemeClassNames } from '@docusaurus/theme-common';
+import { useKeyboardNavigation } from '@docusaurus/theme-common/internal';
+import SkipToContent from '@theme/SkipToContent';
+import AnnouncementBar from '@theme/AnnouncementBar';
+import Navbar from '@theme/Navbar';
+import Footer from '@theme/Footer';
+import LayoutProvider from '@theme/Layout/Provider';
+import ErrorPageContent from '@theme/ErrorPageContent';
+import styles from './styles.module.css';
 export default function Layout(props) {
   const {
     children,
@@ -21,20 +21,21 @@ export default function Layout(props) {
   } = props;
   useKeyboardNavigation();
   return (
-    <LayoutProviders>
+    <LayoutProvider>
       <PageMetadata title={title} description={description} />
-
       <SkipToContent />
-
       <AnnouncementBar />
-
       <Navbar />
-
-      <div className={clsx(ThemeClassNames.wrapper.main, wrapperClassName)}>
-        <ErrorBoundary fallback={ErrorPageContent}>{children}</ErrorBoundary>
+      <div
+        id={SkipToContentFallbackId}
+        className={clsx(ThemeClassNames.wrapper.main, styles.mainWrapper, wrapperClassName)}
+      >
+        <ErrorBoundary fallback={(params) => <ErrorPageContent {...params} />}>
+          {children}
+        </ErrorBoundary>
       </div>
-      {/* {!noFooter && <Footer />}
+      {/* {!noFooter && <Footer />} */}
       {/* Uses swizzled footer inside DocPage/Layout/Main */}
-    </LayoutProviders>
+    </LayoutProvider>
   );
 }
