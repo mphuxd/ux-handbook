@@ -1,9 +1,9 @@
-import React from "react";
-import { useDocsSidebar } from "@docusaurus/theme-common";
-import clsx from "clsx";
-import styles from "./styles.module.css";
-import Footer from "@theme/Footer";
-import { motion } from "framer-motion";
+import React from 'react';
+import { useDocsSidebar } from '@docusaurus/theme-common/internal';
+import clsx from 'clsx';
+import styles from './styles.module.css';
+import Footer from '@theme/Footer';
+import { motion } from 'framer-motion';
 
 export default function DocPageLayoutMain({ hiddenSidebarContainer, children }) {
   const variants = {
@@ -26,7 +26,7 @@ export default function DocPageLayoutMain({ hiddenSidebarContainer, children }) 
     >
       <div
         className={clsx(
-          "container padding-top--md padding-bottom--lg",
+          'container padding-top--md padding-bottom--lg',
           styles.docItemWrapper,
           hiddenSidebarContainer && styles.docItemWrapperEnhanced
         )}
